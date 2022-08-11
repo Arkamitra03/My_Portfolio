@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="progresscircle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dancing+Script:wght@500&family=Nunito:ital,wght@0,700;1,600&family=Pacifico&family=Source+Sans+Pro&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--title section-->
+    <section id="title">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> 人𝕣𝕜𝕒𝕞𝕚𝕥𝕣•◡•</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#title">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#project">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br />
+        <br />
+        <!--name and image-->
+        <div class="row">
+            <div class="col-lg-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1><strong>Hi, I'm Arkamitra</strong></h1>
+                <br />
+
+                <h1 style="font-size: 45px;">I'm a <span class="auto-typed"
+                        style="color: #a11065; font-weight: 900;"></span></h1>
+            </div>
+
+            <div class="col-lg-6">
+                <img class="my-img" src="images\myImg.jpeg" alt="My Image" />
+            </div>
+        </div>
+
+    </section>
+
+    <!--about section-->
+    <section id="about">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="my2ndImg" src="images/myImg2.jpeg" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h1 style="color: black;">About Me</h1>
+                <br>
+                <p>I am a 4th year, B.TECH student in Information Technology seeking for a challenging job role to
+                    expand skills and gain valuable -real-world experience. I am hardworking, passionate ,punctual,
+                    reliable and have excellent communication skills , willing to take added responsibilities to meet
+                    team goals.</p>
+                <div class="row">
+                    <div class="col-lg-4" id="tab-title">
+                        <h5 class="tab-link active-link" onclick="opentab('experience')"><strong>Experience</strong>
+                        </h5>
+                    </div>
+                    <div class="col-lg-4" id="tab-title">
+                        <h5 class="tab-link" onclick="opentab('education')"><strong>Education</strong></h5>
+                    </div>
+                    <div class="col-lg-4" id="tab-title">
+                        <h5 class="tab-link" onclick="opentab('language')"><strong>Language</strong></h5>
+                    </div>
+                </div>
+                <div class="tab-content active-tab" id="experience">
+                    <ul style="text-align: left; margin: 2px;">
+                        <li><span style="font-size: 18px;">Internship</span><br>Front end developer at suvidha
+                            foundation</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul style="text-align: left; margin: 2px;">
+                        <li><span>2019-2023</span>
+                            <br>
+                            B.Tech in Information Technology
+                            <br>
+                            <strong>Institution : </strong> Calcutta Institute Of Engineering and Management
+                            <br>
+                            <strong>CGPA : </strong> 9.53
+                        </li>
+                        <li><span>2018-2019</span>
+                            <br>
+                            12th standard
+                            <br>
+                            <strong>Institution : </strong> Barisha High School
+                            <br>
+                            <strong>Percentage : </strong>84.6%
+                        </li>
+                        <li><span>2016-2017</span>
+                            <br>
+                            10th standard
+                            <br>
+                            <strong>Institution : </strong> Sree Sarada Ashrama Balika Vidyalaya
+                            <br>
+                            <strong>Percentage : </strong>90%
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="language">
+                    <ul style="text-align: left; margin: 2px;">
+                        <li>
+                            <span style="font-size: 17px;">English</span>
+                            <br>
+                            <strong>proficiency : </strong> Advanced
+                            <br>
+                            <span style="font-size: 17px;">Bengali</span>
+                            <br>
+                            <strong>proficiency : </strong> Advanced
+                            <br>
+                            <span style="font-size: 17px;">Hindi</span>
+                            <br>
+                            <strong>proficiency : </strong> Advanced
+                            <br>
+                            <span style="font-size: 17px;">German</span>
+                            <br>
+                            <strong>proficiency : </strong> beginner
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <br>
+    </section>
+
+    <!--skill section-->
+    <section id="skills">
+        <h1><strong>My Skills</strong></h1>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+
+                <div class="mh-professional-skill">
+                    <h3>Technical Skill</h3>
+                    <div class="each-skill">
+
+                        <div class="skill-name">JAVA</div>
+                        <div class="progress-bar">
+                            <div class="skill-percentage" per="60%" style="max-width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="each-skill">
+
+                        <div class="skill-name">SQL</div>
+                        <div class="progress-bar">
+                            <div class="skill-percentage" per="36%" style="max-width: 36%;"></div>
+                        </div>
+                    </div>
+                    <div class="each-skill">
+
+                        <div class="skill-name">HTML</div>
+                        <div class="progress-bar">
+                            <div class="skill-percentage" per="85%" style="max-width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="each-skill">
+
+                        <div class="skill-name">CSS</div>
+                        <div class="progress-bar">
+                            <div class="skill-percentage" per="65%" style="max-width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="each-skill">
+
+                        <div class="skill-name">JS</div>
+                        <div class="progress-bar">
+                            <div class="skill-percentage" per="35%" style="max-width: 35%;"></div>
+                        </div>
+                    </div>
+
+                    <br>
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-sm-12 col-md-6">
+                <div class="mh-professional-skill">
+                    <h3>Soft Skill</h3>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="circlechart" data-percentage="97" style="padding-bottom: 20px;">
+                                Communication
+                            </div>
+
+                            <div class="circlechart" data-percentage="95" style="padding-bottom: 20px;">
+                                Time Management
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="circlechart" data-percentage="97" style="padding-bottom: 20px;">
+                                Team Work
+                            </div>
+
+                            <div class="circlechart" data-percentage="85" style="padding-bottom: 20px;">
+                                Creativity
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+    <!--project section-->
+    <section id="project">
+        <h1><strong>My Work</strong></h1>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="work">
+                    <img src="images\Pharma.png"  height="106%"
+                        style="border: 1pt solid black; border-radius:5%">
+                        <div class="text">
+                            <h3>Pharma Site</h3>
+                            <p>This is a pharma site,Jivichem Pharma.</p>
+                            <a href="https://jivichempharma.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>   
+                </div>
+
+                <!-- -->
+
+            </div>
+            <div class="col-lg-4">
+                <div class="work">
+                    <img src="images/tindog.png" height="126%"
+                        style="border: 1pt solid black; border-radius:5%">
+                        <div class="text">
+                            <h3>Tin Dog</h3>
+                            <p>This is a website where you can purchase dog</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+
+                </div>
+
+              
+
+            </div>
+            <div class="col-lg-4">
+                <div class="work">
+                    <img src="images/drumKit.png"  height="126%"
+                        style="border: 1pt solid black; border-radius:5%">
+                        <div class="text">
+                            <h3>Drum Kit</h3>
+                            <p>Here you can enjoy various music instrument sounds by pressing keys</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+                </div>
+                
+
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="work">
+                    <img src="images/GymSite.png"  height="126%"
+                        style="border: 1pt solid black; border-radius:5% ;">
+                        <div class="text">
+                            <h3>Gym Website</h3>
+                            <p>This is a landing page of a gym website</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+
+                </div>
+               
+
+            </div>
+            <div class="col-lg-4 male-gym">
+                <div class="work">
+                    <img src="images/newsletter.png"  height="126%"
+                        style="border: 1pt solid black; border-radius:5%">
+                        <div class="text">
+                            <h3>NewsLetter SignUp</h3>
+                            <p>Here you can signUp to my newsletter by filling necessary details</p>
+                            <a href="https://glacial-island-42682.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+                </div>
+             
+
+            </div>
+            <div class="col-lg-4">
+                <div class="work">
+                    <img src="images/diceGame.png"  height="126%"
+                        style="border: 1pt solid black; border-radius:5%">
+                        <div class="text">
+                            <h3>Dice Game</h3>
+                            <p>This is a dice game website where two players can play and get immediate result</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div> 
+
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <section id="contact">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mukherjeearkamitra@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8335936751</p>
+                
+                <a href="https://github.com/Arkamitra03" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/arkamitra-mukherjee-055407215" class="icon"><i class="fa-brands fa-github"></i></a>
+               <br>
+                <a href="images/HexaWare_Resume.pdf" download class="btn"><i class="fa-solid fa-download"></i>Download CV</a>
+            </div>
+            <div class="col-lg-6">
+                <form>
+                    <input type="text" name="Name" placeholder="enter name" required>
+                    
+                    <input type="email" name="email" placeholder="enter email id" required>
+                    <br>
+                    <br>
+                    <textarea name="msg"  cols="25" rows="5" placeholder="Drop a msg" style="text-align: left;"></textarea>
+                    <br>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <p>© Copyright  2022  Arkamitra</p>
+    </section>
+
+    <script src="circle-progress.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+    "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="progresscircle.js"></script>
+    <script>
+        $(function () {
+
+            $('.circlechart').circlechart();
+
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
