@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Arima', cursive;
-    
+   
     color: #fff;
 }
 
@@ -10,6 +10,7 @@ body {
 #title {
     background-image: linear-gradient(to right, rgb(2, 77, 24), rgb(7, 7, 7));
     background-size: cover;
+    
     text-align: center;
 }
 
@@ -159,6 +160,7 @@ section h1 {
     border-radius: 3px;
     font-size: 10px;
     right: 0;
+    
 }
 .skill-percentage::after{
     content: "";
